@@ -9,3 +9,7 @@ msgstr "Punto de Venta"
 msgctxt "field:sale.sale,pos:"
 msgid "Point of Sale"
 msgstr "Punto de Venta"
+
+msgctxt "field:sale.subscription,pos:"
+msgid "Point of Sale"
+msgstr "Punto de Venta"
