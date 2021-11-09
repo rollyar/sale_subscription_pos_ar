@@ -25,7 +25,7 @@ class Subscription(metaclass=PoolMeta):
             return config.pos.id
 
     def _get_invoice(self):
-        invoice = super(Subscription, self)._get_invoice()
+        invoice = super()._get_invoice()
         if invoice:
             invoice.pos = self.pos
             invoice.invoice_type = invoice.on_change_with_invoice_type()
