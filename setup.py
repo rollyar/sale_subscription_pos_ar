@@ -52,10 +52,10 @@ if minor_version % 2:
 else:
     branch = series
 
-download_url = 'https://github.com/tryton-ar/sale_subscription_pos_ar/tree/%s' % branch
+download_url = 'https://github.com/rollyar/sale_subscription_pos_ar/tree/%s' % branch
 
 LINKS = {
-    'trytonar_sale_pos_ar': ('git+https://github.com/tryton-ar/'
+    'trytonar_sale_pos_ar': ('git+https://github.com/rollyar/'
         'sale_pos_ar.git@%s#egg=trytonar_sale_pos_ar-%s' %
         (branch, series)),
     }
@@ -78,7 +78,7 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     description='Tryton module that integrates AFIP with sales subscriptions',
     long_description=read('README'),
     author='tryton-ar',
-    url='https://github.com/tryton-ar/sale_subscription_pos_ar',
+    url='https://github.com/rollyar/sale_subscription_pos_ar',
     download_url=download_url,
     package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
